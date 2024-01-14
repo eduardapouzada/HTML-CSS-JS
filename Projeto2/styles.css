@@ -17,8 +17,9 @@
 }
 
 .area-left{
-    width: 40%; 
+    width: 45%; 
     margin: 100px 70px 20px 50px; 
+
 }
 
 .area-left img{
@@ -55,34 +56,56 @@
 .area-form form{
     margin: 10px auto; 
     width: 100%;
-    height: 35px;
+    height: 46px;
     text-align: center;
     border: none;
     border-radius: 20px;
     background-color: #2C344B;
+    display: flex;
+    align-items: center;
 }
 
 
 .area-form #input{
     border: none;
     width: 200px;
-    height: 20px;
+    height: 22px;
     background-color: transparent;
-    color: white;
-    float: left;
     margin: 5px 20px;
     color: #dbdbdb;
     font-size: 10pt;
-
 }
 
 .area-form #button{
-    float: right;
-    width: 150px; height: 35px;
+    width: 150px; height: 38px;
     background-color: #1ED760;
     border: none;
     border-radius: 20px; 
     color: black;
-    font-size: 15pt;
-    font-weight: 500;
+    font-size: 13pt;
+    font-weight: 600;
+    margin: 0 0 0 290px;
 }
+
+.area-form #button:hover{
+    background-color: #32FF5F;
+}
+
+.area-img a{
+    text-decoration: none;
+}
+
+.area-img{
+    filter:grayscale(100%); /* Deixando nossas imagens sem cores */
+    width: 90px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 14px;
+    transition: filter 0.4s;
+    transition: transform 0.2s;
+  }
+  
+  .area-img:hover{
+    filter:grayscale(0); /* Voltando a cor real ao passar o mouse em cima. */
+    transform: scale(1.1) /* Aumentando a imagem ao passar o mouse em cima. */
+  }
