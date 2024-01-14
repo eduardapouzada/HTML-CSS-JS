@@ -10,54 +10,79 @@
 
 .interface{
     width: 100vw; height: 100vh;
-    background-color: #121929;
+    background-color: #121A2A;
     background-image: url(./assets/bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.area-textos{
+.area-left{
     width: 40%; 
-    margin: 100px 70px 20px 70px; 
+    margin: 100px 70px 20px 50px; 
 }
 
-.area-textos img{
+.area-left img{
     width: 180px;
 
 }
 
-
-.area-textos h1{
+.area-left h1{
     color: white;
     font-size: 30pt;
     margin: 50px 0px;
     text-align: justify;
 }
 
-.area-textos #p1{
+.area-left #p1{
     margin: 50px 0px;
     font-size: 10pt;
     color: white;
     text-align: justify;
 }
 
-.area-textos #p2{
-    color: white;
-    font-size: 15pt;
+.area-left #p2{
+    color: #ffffff;
+    font-size: 20pt;
 }
 
 
 .area-form p{
-    margin-left: 80px;
-    color: white;
-    font-size: 25pt;
+    margin-left: 5px;
+    color: #dbdbdb;
+    font-size: 22pt;
 }
 
 .area-form form{
-    margin-left: 80px;
-    width: 32%;
+    margin: 10px auto; 
+    width: 100%;
+    height: 35px;
+    text-align: center;
     border: none;
     border-radius: 20px;
-    background-color: #9aa7c65d;
+    background-color: #2C344B;
 }
 
+
+.area-form #input{
+    border: none;
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    float: left;
+    margin: 5px 20px;
+    color: #dbdbdb;
+    font-size: 10pt;
+
+}
+
+.area-form #button{
+    float: right;
+    width: 150px; height: 35px;
+    background-color: #1ED760;
+    border: none;
+    border-radius: 20px; 
+    color: black;
+    font-size: 15pt;
+    font-weight: 500;
+}
