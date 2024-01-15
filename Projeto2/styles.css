@@ -22,9 +22,8 @@
 
 }
 
-.area-left img{
+#logo{
     width: 180px;
-
 }
 
 .area-left h1{
@@ -36,21 +35,15 @@
 
 .area-left #p1{
     margin: 50px 0px;
-    font-size: 10pt;
-    color: white;
+    font-size: 12pt;
+    color: #dbdbdb;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .area-left #p2{
     color: #ffffff;
     font-size: 20pt;
-}
-
-
-.area-form p{
-    margin-left: 5px;
-    color: #dbdbdb;
-    font-size: 22pt;
 }
 
 .area-form form{
@@ -72,8 +65,9 @@
     height: 22px;
     background-color: transparent;
     margin: 5px 20px;
-    color: #dbdbdb;
-    font-size: 10pt;
+    color: #757575;
+    font-size: 12pt;
+    outline: none;
 }
 
 .area-form #button{
@@ -95,17 +89,17 @@
     text-decoration: none;
 }
 
-.area-img{
+.img-logos{
     filter:grayscale(100%); /* Deixando nossas imagens sem cores */
     width: 90px;
-    height: 50px;
+    height: 100px;
     object-fit: contain;
-    margin-right: 14px;
+    margin: 0px 12px;
     transition: filter 0.4s;
     transition: transform 0.2s;
   }
   
-  .area-img:hover{
-    filter:grayscale(0); /* Voltando a cor real ao passar o mouse em cima. */
-    transform: scale(1.1) /* Aumentando a imagem ao passar o mouse em cima. */
-  }
+.img-logos:hover{
+    filter:grayscale(0); /* Voltando a cor */
+    transform: scale(1.1) 
+}
