@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin: 0;
 }
 .sidebar{
     position: fixed;
@@ -149,7 +150,7 @@ body{
 }
 
 .sidebar .cookies a{
-    padding: 3px;
+    padding-right: 14px;
     color: #b3b3b3;
     font-weight: 500;
     font-size: 12px;
@@ -173,3 +174,45 @@ body{
     padding: 8px;
 }
 
+.disclaimer-premium{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border-radius: 2px;
+}
+
+.disclaimer-premium .text{ 
+    flex-shrink: 0; /*TEXTO NÃO SE AJUSTA à TELA*/
+    margin-left: 10px;
+}
+
+.text .disclaimer-premium__title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.text .disclaimer-premium__subtitle{
+    color: #fff;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+.disclaimer-premium .button button{
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 16px 30px;
+    margin: 0px 15px;
+    border: none;
+    font-size: 10pt;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0; 
+}
