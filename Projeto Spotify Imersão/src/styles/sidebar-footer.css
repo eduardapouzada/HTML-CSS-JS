@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    margin: 0;
+    font-family: var(--font-dm-sans);
 }
 .sidebar{
     position: fixed;
