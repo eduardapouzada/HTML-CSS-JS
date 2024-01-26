@@ -1,0 +1,100 @@
+body{
+    background-image: url(../src/assets/fundosnetflix.jpg);
+    background-repeat: no-repeat;
+}
+
+hr{
+    display: block; float: left; 
+    height: 1px;
+    width: 35%;
+    background-color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+section#corpo{
+    display: block; float: left;
+    color: white;
+    width: 40%;
+    margin: 0px 0px 0px 180px;
+}
+
+section#corpo img{
+    padding-top: 30px;
+}
+
+section#corpo h2{
+    font-size: 60px;
+    padding: 0px 0px 50px 0px;
+}
+
+section#corpo h5{
+    font-size: 15px;
+}
+
+section#corpo p {
+    font-size: 20px;
+    padding-right: 55px;
+}
+
+aside#lateral{
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 15%;
+    display: block; float: right;
+    width: 30%;
+    margin: 140px 250px 0px 0px;
+    padding-top: 15px;
+    
+}
+
+aside#lateral h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 25px;
+}
+
+
+div#cadastro{
+    color: white;
+    padding: 0px 0px 50px 100px;
+
+}
+
+
+p#input{
+    background-color: red;
+    border-radius: 14px;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    padding-left: 35px;
+    margin-top: 65px;
+}
+
+input{
+    border: none;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 18px;
+    padding: 8px;
+}
+
+input[type=submit]{
+    background-color: red; color: white;
+    border: none;
+    border-radius: 14px;
+    width: 35%;
+    height: 30px;
+    margin-left: 68px;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 16px;
+}
+
