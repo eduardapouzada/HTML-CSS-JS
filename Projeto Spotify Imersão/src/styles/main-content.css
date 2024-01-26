@@ -1,4 +1,8 @@
 .main-conteiner{
+    background-color: red;
     max-width: 80vw; 
-    hri
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+    
 }
