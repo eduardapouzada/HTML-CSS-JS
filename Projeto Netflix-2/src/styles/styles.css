@@ -14,3 +14,14 @@ body{
     background-color: transparent;
     margin: 3.125rem 0rem ;
 }
+
+.main-img{
+    width: 10rem; height: 3rem;
+}
+
+.main-form__login{
+    display: flex; 
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.7);
+    width: 50%;
+}
