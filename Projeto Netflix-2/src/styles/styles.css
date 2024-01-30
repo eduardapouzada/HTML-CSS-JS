@@ -10,18 +10,25 @@ body{
 }
 
 .main{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     width: 80%; height: 100vh;
     background-color: transparent;
     margin: 3.125rem 0rem ;
 }
 
 .main-img{
+    align-items: left;
     width: 10rem; height: 3rem;
+    margin: 0rem;
 }
 
 .main-form__login{
     display: flex; 
     justify-content: center;
+    align-items: center;
     background-color:  rgba(0, 0, 0, 0.7);
     width: 50%;
+    height: 50vh;
 }
