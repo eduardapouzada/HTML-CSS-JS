@@ -1,3 +1,5 @@
+/*
+
 body{
     background-image: url("../assets/bg.jpg");
 }
@@ -11,20 +13,29 @@ body{
 
 .main{
     display: grid;
-    grid-template-columns: 0.5fr 2fr;
+    grid-template-columns: 1fr 2fr;
     width: 80%; height: 100vh;
     margin: 3.125rem 0rem ;
 }
 
-.main-img{ 
+.main-img{ background-color: red;
     grid-column: 1;
     width: 10rem; height: 3rem;
 }
 
-.main-form__login{
+.main-login{
     grid-column: 2;
+    display: flex;
+    justify-content: center;
     background-color:  rgba(0, 0, 0, 0.7);
-    width: 60%;
+    width: 54%;
     height: 80vh;
     margin-top: 3rem;
 }
+
+.main-login__form{
+    background-color: transparent;
+    
+}
+
+*/
