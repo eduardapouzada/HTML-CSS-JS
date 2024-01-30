@@ -10,25 +10,21 @@ body{
 }
 
 .main{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
     width: 80%; height: 100vh;
-    background-color: transparent;
     margin: 3.125rem 0rem ;
 }
 
-.main-img{
-    align-items: left;
+.main-img{ 
+    grid-column: 1;
     width: 10rem; height: 3rem;
-    margin: 0rem;
 }
 
 .main-form__login{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    grid-column: 2;
     background-color:  rgba(0, 0, 0, 0.7);
-    width: 50%;
-    height: 50vh;
+    width: 60%;
+    height: 80vh;
+    margin-top: 3rem;
 }
