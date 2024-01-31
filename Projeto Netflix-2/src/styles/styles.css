@@ -1,4 +1,4 @@
-/*
+
 
 body{
     background-image: url("../assets/bg.jpg");
@@ -7,10 +7,14 @@ body{
 .interface{
     height: 160vh;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
 }
 
+.header img{
+    width: 6.25rem; 
+    height: 2.5rem;
+    margin: 2rem 0rem 0rem 12.5rem;
+}
+/*
 .main{
     display: grid;
     grid-template-columns: 1fr 2fr;
