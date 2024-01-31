@@ -5,6 +5,8 @@ body{
 }
 
 .interface{
+    display: flex;
+    justify-content: space-between;
     height: 160vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -14,32 +16,18 @@ body{
     height: 2.5rem;
     margin: 2rem 0rem 0rem 12.5rem;
 }
-/*
-.main{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 80%; height: 100vh;
-    margin: 3.125rem 0rem ;
-}
 
-.main-img{ background-color: red;
-    grid-column: 1;
-    width: 10rem; height: 3rem;
+.main{ 
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 31.25rem;
+    margin: auto;
+    height: auto; 
 }
 
 .main-login{
-    grid-column: 2;
-    display: flex;
-    justify-content: center;
-    background-color:  rgba(0, 0, 0, 0.7);
-    width: 54%;
-    height: 80vh;
-    margin-top: 3rem;
-}
+    background-color: yellow;
+    width: 20rem;
 
-.main-login__form{
-    background-color: transparent;
-    
 }
-
-*/
