@@ -1,33 +1,30 @@
-
-
 body{
     background-image: url("../assets/bg.jpg");
 }
 
 .interface{
-    display: flex;
-    justify-content: space-between;
     height: 160vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header img{
-    width: 6.25rem; 
-    height: 2.5rem;
+    width: 6.5rem; 
+    height: 3rem;
     margin: 2rem 0rem 0rem 12.5rem;
 }
 
 .main{ 
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 31.25rem;
+    width: 80%;
     margin: auto;
     height: auto; 
 }
 
-.main-login{
-    background-color: yellow;
-    width: 20rem;
+.main-login{    
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: 50%;
+}
 
+.main-login__form{
+    background-color: red;
 }
