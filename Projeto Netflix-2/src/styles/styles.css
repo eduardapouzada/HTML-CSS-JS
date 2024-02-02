@@ -22,9 +22,19 @@ body{
 .main-login{    
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0 auto;
-    width: 50%;
+    width: 42%;
 }
 
 .main-login__form{
-    background-color: red;
+    color: white;
+    margin: 0 auto;
+    width: 80%;
 }
+
+.span_entrar{
+    color: white;
+    font-size: 24pt;
+    font-weight: 600;  
+
+}
+
