@@ -47,7 +47,7 @@ body{
     margin: 20px 0px 10px 2px;
 }
 
-.main-login__form input{
+.main-login__form .input{
     background-color: var(--cor-bg-content);
     border-radius: 4px;    
     border: 0.1px solid #b3b3b3;
@@ -57,7 +57,7 @@ body{
     margin-bottom: 22px
 }
 
-.main-login__form input::placeholder{
+.main-login__form .input::placeholder{
     color: var(--cor-fonte03);
     font-size: 11pt;
 }
@@ -86,4 +86,13 @@ body{
 
 .form-a a:hover{
     text-decoration: underline;
+}
+
+.main-footer{
+    display: flex;
+}
+.main-footer label{
+    color: white;
+    margin-top: 2px;
+    margin-left: 6px;
 }
