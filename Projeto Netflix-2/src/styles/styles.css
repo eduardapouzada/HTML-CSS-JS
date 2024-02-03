@@ -22,19 +22,27 @@ body{
 .main-login{    
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0 auto;
-    width: 42%;
+    width: 42%; height: 550px;
 }
 
 .main-login__form{
     color: white;
     margin: 0 auto;
-    width: 80%;
+    width: 80%; height: fit-content;
 }
 
 .span_entrar{
     color: white;
     font-size: 24pt;
     font-weight: 600;  
+    margin-top: 10px;
+}
 
+.main-login__form input{
+    background-color: transparent;
+    border-radius: 1px;    
+    border: 0.2px solid white;
+    padding: 5px 25px;
+    margin: 10px 0px;
 }
 
