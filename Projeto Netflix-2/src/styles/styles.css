@@ -1,3 +1,9 @@
+:root{
+    --cor-fonte01: #ffffff;
+    --cor-fonte02: #f5f5f5;
+    --cor-fonte03: #b3b3b3;
+}
+
 body{
     background-image: url("../assets/bg.jpg");
 }
@@ -26,13 +32,13 @@ body{
 }
 
 .main-login__form{
-    color: white;
+    color: var(--cor-fonte01);
     margin: 0 auto;
     width: 80%; height: fit-content;
 }
 
 .span_entrar{
-    color: white;
+    color: var(--cor-fonte01);
     font-size: 24pt;
     font-weight: 600;  
     margin-top: 10px;
@@ -46,3 +52,11 @@ body{
     margin: 8px 0px;
 }
 
+.main-login__form input::placeholder{
+    color: var(--cor-fonte03);
+}
+
+input::placeholder:hover{
+    margin-bottom: 20px; 
+    color: red;
+}
