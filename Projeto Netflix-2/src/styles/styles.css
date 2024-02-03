@@ -62,11 +62,6 @@ body{
     font-size: 11pt;
 }
 
-input::placeholder:hover{
-    margin-bottom: 20px; 
-    color: red;
-}
-
 .form-button{
     background-color: red;
     width: 100%;
@@ -80,3 +75,15 @@ input::placeholder:hover{
     font-weight: 600;
 }
 
+.form-a{
+    text-align: center;
+}
+
+.form-a a{
+    text-decoration: none;
+    color: var(--cor-fonte02);
+}
+
+.form-a a:hover{
+    text-decoration: underline;
+}
