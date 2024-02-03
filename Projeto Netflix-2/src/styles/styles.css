@@ -29,7 +29,7 @@ body{
 
 .main-login{    
     background-color: var(--cor-bg-content);
-    width: 34%; height: auto;
+    width: 36%; height: auto;
     margin: 0 auto;
 }
 
@@ -37,26 +37,28 @@ body{
     color: var(--cor-fonte01);
     margin: 20px auto;
     padding: 30px 20px;
-    width: 76%; height: fit-content;
+    width: 62%; 
 }
 
-.span_entrar{
+.p_entrar{
     color: var(--cor-fonte01);
     font-size: 24pt;
     font-weight: 600;  
-    background-color: aquamarine;
+    margin: 20px 0px 10px 2px;
 }
 
 .main-login__form input{
-    background-color: transparent;
-    border-radius: 3px;    
-    border: 0.2px solid white;
-    padding: 8px 25px;
-    margin: 8px 0px;
+    background-color: var(--cor-bg-content);
+    border-radius: 4px;    
+    border: 0.1px solid #b3b3b3;
+    width: 100%; 
+    padding: 20px 12px;
+    margin-bottom: 22px
 }
 
 .main-login__form input::placeholder{
     color: var(--cor-fonte03);
+    font-size: 11pt;
 }
 
 input::placeholder:hover{
