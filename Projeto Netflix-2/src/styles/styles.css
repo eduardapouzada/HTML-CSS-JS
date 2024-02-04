@@ -12,7 +12,7 @@ body{
 }
 
 .interface{
-    height: 160vh;
+    height: auto;
     background-color: var(--cor-bg);
 }
 
@@ -122,12 +122,19 @@ body{
 
 footer{ 
     width: 100%;
-    padding: 50px 0px;
+    padding: 20px 0px 80px 0px;
     height: fit-content;
     background-color: var(--cor-bg-content);
     color: var(--cor-fonte03);
     font-size: 12pt;
 }
+
+.footer-header{ 
+    margin:  0px auto;
+    padding: 30px 0px 20px 70px;
+    width: 66%;
+}
+
 
 .footer-content{
     display: grid;
@@ -136,13 +143,13 @@ footer{
     margin: 0px auto;
 }
 
-.footer-header{ 
-    margin:  0px auto;
-    padding: 15px;
-    width: 66%;
-}
 
 .footer-content p{
-    margin: 10px 30px;
+    margin: 0px 20px 2px 50px;
     text-decoration: underline;
+}
+ 
+.footer-content p:hover{
+    color: #d0d0d0;
+    cursor: pointer;
 }
