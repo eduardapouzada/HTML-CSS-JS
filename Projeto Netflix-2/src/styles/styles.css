@@ -119,3 +119,30 @@ body{
     color: var(--cor-fonte03);
     font-size: 10pt;
 }
+
+footer{ 
+    width: 100%;
+    padding: 50px 0px;
+    height: fit-content;
+    background-color: var(--cor-bg-content);
+    color: var(--cor-fonte03);
+    font-size: 12pt;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    width: 68%;
+    margin: 0px auto;
+}
+
+.footer-header{ 
+    margin:  0px auto;
+    padding: 15px;
+    width: 66%;
+}
+
+.footer-content p{
+    margin: 10px 30px;
+    text-decoration: underline;
+}
