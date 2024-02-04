@@ -105,5 +105,17 @@ body{
 
 .main-footer_text p{
     color: var(--cor-fonte02);
+    margin: 20px 0px 10px 0px;
 }
 
+.main-footer_text a.assine{
+    color: var(--cor-fonte01);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.main-footer_text span{
+    color: var(--cor-fonte03);
+    font-size: 10pt;
+}
