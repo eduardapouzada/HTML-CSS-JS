@@ -75,6 +75,11 @@ body{
     font-weight: 600;
 }
 
+.form-button:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+    cursor: pointer;
+}
+
 .form-a{
     text-align: center;
 }
@@ -90,9 +95,13 @@ body{
 
 .main-footer{
     display: flex;
+    margin: 22px 0px;
 }
+
 .main-footer label{
     color: white;
     margin-top: 2px;
     margin-left: 6px;
 }
+
+
