@@ -1,0 +1,10 @@
+@media (max-width: 480px) {
+    .header-navigation img{
+        width: 10%;
+    }
+
+    .header-navigation li{
+        font-size: 2pt;
+    }
+
+}

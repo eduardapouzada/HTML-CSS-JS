@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+@font-face {
+    font-family: 'walking';
+    src: url(../assets/fonts/chernobyl/Chernobyl.otf);
+    font-weight: normal; font-style: normal;
+}
+
+@font-face {
+    font-family: 'normal';
+    src: url('../assets/fonts/vampire_wars/Vampire\ Wars.otf');
+    font-weight: normal; 
+    font-style: normal;
+}
+
 body{
-    /*background-color: #1B1B1B;*/
+    width: 100%;
+    background-color: #1B1B1B;
+    background-image: url(../assets/fundo.jpg);
+    background-repeat: no-repeat; 
+    background-position-x: center;
+
 }
 
 .header-content{
     color: white;
-    background-image: url(../assets/fundo.jpg);
-    background-repeat: no-repeat; 
     height: auto;
     padding: 10px;
     margin: 0px auto;
@@ -23,7 +41,9 @@ body{
 .header-navigation li{
     display: inline-block;
     padding-left: 25px;
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: 600;
+    letter-spacing: 2px;
+    font-family: normal;
     text-transform: uppercase;
 }
