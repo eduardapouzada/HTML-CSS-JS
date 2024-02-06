@@ -25,13 +25,18 @@ body{
 .header-content{
     color: white;
     height: auto;
-    padding: 10px;
-    margin: 0px auto;
+    padding: 0.625rem;
+    margin: 0rem auto;
     width: 94%;
+}
+
+.header-navigation{
+    margin-top: 0.6rem;
 }
 
 .header-navigation img{
     width: 3%; height: 0.5%;
+    margin-left: 1.5rem;
 }
 
 .header-navigation ul{
@@ -40,10 +45,15 @@ body{
 
 .header-navigation li{
     display: inline-block;
-    padding-left: 25px;
+    padding-left: 1.563rem;
     font-size: 12pt;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     font-family: normal;
     text-transform: uppercase;
+}
+
+.header-navigation li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
