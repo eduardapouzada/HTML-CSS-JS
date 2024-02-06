@@ -76,5 +76,10 @@ body{
 
 .header-main__subtitle{
     font-family: 'walking';
-    color: #4C362B;
+    font-size: 10pt;
+    letter-spacing: 0.125rem;
+    background-image: url(../assets/texturas/textura.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
 }
