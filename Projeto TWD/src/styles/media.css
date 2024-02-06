@@ -33,6 +33,22 @@
 
     .header-main__button{
         margin: 3.50rem 0rem;
-        padding: 12px 10%;
+        padding: 20px 8%;
     }
+
+    .main-content__um{
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+
+    .main-content__um img, .content-um__text, .content-um__title, .content-um__p{
+        margin: 0px; padding: 20px 20px 10px 20px;
+    }
+
+    .content-um__button{
+        margin-left: 2rem;
+        padding: 10px 8%;
+    }
+
 }
