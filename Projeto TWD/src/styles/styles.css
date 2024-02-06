@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
-@font-face {
-    font-family: 'walking';
-    src: url(../assets/fonts/chernobyl/Chernobyl.otf);
-    font-weight: normal; font-style: normal;
-}
-
-@font-face {
-    font-family: 'normal';
-    src: url('../assets/fonts/vampire_wars/Vampire\ Wars.otf');
-    font-weight: normal; 
-    font-style: normal;
-}
-
-:root{
-    --color_01: #ededed;
-}
 
 body{
     width: 100%;
@@ -106,14 +90,33 @@ body{
 }
 
 .header-main__button{
-    background-image: url(../assets/texturas/textura.webp);
+    /*background-image: url(../assets/texturas/textura.webp);*/
+
+    background-image: url(../assets/icon/icon_play.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: #251010;
+
+
+    width: 25px;
     color: var(--color_01);
     border: none;
     border-radius: 18px;
     font-family: 'normal';
-    font-size: 12pt;
+    font-size: 0pt;
     letter-spacing: 5px;
     text-transform: uppercase;
+    padding: 18px 5%;
     margin: 5rem 0rem;
-    padding: 12px 5%;
+}
+
+.header-main__button:hover{
+    cursor: pointer;
+    background-image: none;
+    width: 40%;
+    font-size: 8pt;
+    color: var(--color_01);
+    padding: 18px 5%;
 }
