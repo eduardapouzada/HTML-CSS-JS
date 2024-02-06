@@ -60,39 +60,43 @@ body{
 }
 
 .header-main{
-    background-color: red;
     width: 50%;
     margin: 3rem;
 }
 
 
 .header-main__title{
-    font-size: 70pt;
-    font-family: 'walking';
-    background-image: url(../assets/texturas/textura.jpg);
+    background-image: url(../assets/texturas/textura.webp);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent; 
+    font-size: 70pt;
     font-family: 'walking';
     letter-spacing: 3px;
+
 }
 
 .header-main__title span{
     font-size: 44pt;
+    margin-left: 1rem;
 }
 
 .header-main__subtitle{
-    font-family: 'walking';
-    font-size: 10pt;
-    letter-spacing: 0.125rem;
-    background-image: url(../assets/texturas/textura.jpg);
+    width: 40%;
+    margin: 2rem 0rem;
+    background-image: url(../assets/texturas/textura.webp);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent; 
+    font-family: 'walking';
+    font-size: 10pt;
+    letter-spacing: 0.125rem;
 }
 
-.header-main__p{
+.header-main__p{ 
+    width: 80%;
     color: white;
     font-size: 8pt;
     font-family: 'normal';
+    letter-spacing: 2px;
 }

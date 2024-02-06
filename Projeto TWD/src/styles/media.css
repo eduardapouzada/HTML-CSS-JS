@@ -8,4 +8,21 @@
         padding-left: 15px;
     }
 
+    .header-main{
+        width: 80%;
+    }
+
+    .header-main__title{
+        font-size: 40pt;
+        margin: 7.88rem 0rem 2rem 0rem;
+    }
+
+    .header-main__title span{
+        font-size: 25pt;
+    }
+
+    .header-main__subtitle{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
 }
