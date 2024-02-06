@@ -59,8 +59,15 @@ body{
     cursor: pointer;
 }
 
+.header-main{
+    background-color: red;
+    width: 50%;
+    margin: 3rem;
+}
+
+
 .header-main__title{
-    font-size: 48pt;
+    font-size: 70pt;
     font-family: 'walking';
     background-image: url(../assets/texturas/textura.jpg);
     background-clip: text;
@@ -71,7 +78,7 @@ body{
 }
 
 .header-main__title span{
-    font-size: 32pt;
+    font-size: 44pt;
 }
 
 .header-main__subtitle{
@@ -82,4 +89,10 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent; 
+}
+
+.header-main__p{
+    color: white;
+    font-size: 8pt;
+    font-family: 'normal';
 }
