@@ -13,6 +13,10 @@
     font-style: normal;
 }
 
+:root{
+    --color_01: #ededed;
+}
+
 body{
     width: 100%;
     background-color: #1B1B1B;
@@ -23,7 +27,7 @@ body{
 }
 
 .header-content{
-    color: white;
+    color: var(--color_01);
     height: auto;
     padding: 0.625rem;
     margin: 0rem auto;
@@ -95,8 +99,21 @@ body{
 
 .header-main__p{ 
     width: 80%;
-    color: white;
+    color: var(--color_01);
     font-size: 8pt;
     font-family: 'normal';
     letter-spacing: 2px;
+}
+
+.header-main__button{
+    background-image: url(../assets/texturas/textura.webp);
+    color: var(--color_01);
+    border: none;
+    border-radius: 18px;
+    font-family: 'normal';
+    font-size: 12pt;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 5rem 0rem;
+    padding: 12px 5%;
 }

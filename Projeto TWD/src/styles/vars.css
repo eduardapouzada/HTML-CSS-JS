@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'walking';
+    src: url(../assets/fonts/chernobyl/Chernobyl.otf);
+    font-weight: normal; font-style: normal;
+}
+
+@font-face {
+    font-family: 'normal';
+    src: url('../assets/fonts/vampire_wars/Vampire\ Wars.otf');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+:root{
+    --color_01: #ededed;
+}

@@ -25,4 +25,14 @@
         width: 80%;
         margin-bottom: 2rem;
     }
+
+    .header-main__p{
+        margin-top: 3rem;
+        font-size: 1pt;
+    }
+
+    .header-main__button{
+        margin: 3.50rem 0rem;
+        padding: 12px 10%;
+    }
 }
