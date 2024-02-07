@@ -123,6 +123,7 @@ body{
 }
 
 .main-content__um img{
+    cursor: pointer;
     padding: 20px 0px;
     margin-left: 50px ;
 }
@@ -151,7 +152,7 @@ body{
 
 .content-um__button{
     background-color: transparent;
-    color: white;
+    color: var(--color_01);
     font-family: 'normal';
     font-size: 15pt;
     border: 2px solid #5d4c3e;
@@ -164,4 +165,52 @@ body{
 .content-um__button:hover{
     background-color: #5d4c3e;
     cursor: pointer;
+}
+
+.main-content__dois{ 
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-content__dois img{
+    margin-left: 2rem;
+    cursor: pointer; 
+}
+
+
+.content-dois__text{
+    margin-top: 3.9rem ;
+    color: var(--color_01);
+}
+
+.content-dois__title{
+    font-size: 22pt;
+    font-family: 'normal';
+    text-align: center;
+}
+
+.content-dois__p{
+    font-family: 'texts';
+    font-size: 9pt;
+    text-align: center;
+    letter-spacing: 2px;  
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+.content-dois__imgs img{
+    width: 90px; height: 35px;
+    padding: 30px 28px;
+    cursor: pointer;
+    transition: background-color 1s ease, border-radius 0.5s ease;
+}
+
+.content-dois__imgs img:hover{
+    background-color: #151515;
+    border: 2px solid white;
+    border-radius: 10px;
+
 }
