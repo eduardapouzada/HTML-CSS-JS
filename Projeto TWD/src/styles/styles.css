@@ -180,7 +180,6 @@ body{
     cursor: pointer; 
 }
 
-
 .content-dois__text{
     margin-top: 3.9rem ;
     color: var(--color_01);
@@ -212,5 +211,4 @@ body{
     background-color: #151515;
     border: 2px solid white;
     border-radius: 10px;
-
 }

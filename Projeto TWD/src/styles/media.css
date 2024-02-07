@@ -36,7 +36,7 @@
         padding: 20px 8%;
     }
 
-    .main-content__um{
+    .main-content__um, .main-content__dois{
         width: 80%;
         margin: 0 auto;
         grid-template-columns: 1fr;
@@ -49,6 +49,25 @@
     .content-um__button{
         margin-left: 2rem;
         padding: 10px 8%;
+    }
+    
+    .content-dois__title{
+        text-align: left;
+        margin-left: 33px;
+    }
+
+    .content-dois__p{
+        width: 80%;
+        font-size: 5pt;
+    }
+
+    .main-content__dois img{
+        margin: 0;
+    }
+
+    .content-dois__imgs img{
+        width: 80px; height: 25px;
+        padding: 10px 30px;
     }
 
 }
