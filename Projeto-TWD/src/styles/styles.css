@@ -259,11 +259,11 @@ body{
 }
 
 .seasons__texts{
-    width: 80%;
+    width: 98%;
     color: var(--color_01);
     font-family: 'texts';
     font-size: 5pt;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin: 10px 0px;
 }
 
