@@ -50,6 +50,7 @@ body{
 
 .main-login__form .input{
     background-color: var(--cor-bg-content);
+    color: white;
     border-radius: 0.25rem;    
     border: 0.1px solid #b3b3b3;
     width: 100%; 
