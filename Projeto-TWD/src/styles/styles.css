@@ -230,3 +230,40 @@ body{
 .main-content__tres img{
     padding-left: 6rem;
 }
+
+.main-content__quatro{
+    width: 88%;
+    margin: 3rem auto; 
+}
+
+.content-quatro__title{
+    text-align: center;
+    color: var(--color_01);
+    font-size: 34pt;
+    font-family: 'normal';
+    margin: 3rem 0rem;
+}
+
+.seasons{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    gap: 3rem;
+
+}
+
+.seasons__title{
+    font-size: 25pt;
+    color: var(--color_01);
+    font-family: 'normal';
+    margin: 2rem 0.75rem;
+}
+
+.seasons__texts{
+    width: 80%;
+    color: var(--color_01);
+    font-family: 'texts';
+    font-size: 5pt;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+}
+
