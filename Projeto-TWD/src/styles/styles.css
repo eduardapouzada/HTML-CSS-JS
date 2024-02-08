@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
-
 body{
     width: 100%;
     background-color: #1B1B1B;
@@ -138,7 +137,7 @@ body{
     margin: 0px 0px 10px 5px;
     color: var(--color_01);
     font-family: 'normal';
-    font-size: 22pt;
+    font-size: 34pt;
 }
 
 .content-um__p{
@@ -186,7 +185,7 @@ body{
 }
 
 .content-dois__title{
-    font-size: 22pt;
+    font-size: 34pt;
     font-family: 'normal';
     text-align: center;
 }
@@ -217,10 +216,11 @@ body{
 .main-content__tres{
     width: 92%;
     margin: 0 auto;
+    padding: 80px 0px ;
 }
 
 .content-tres__title{
-    font-size: 22pt;
+    font-size: 34pt;
     color: var(--color_01);
     font-family: 'normal';
     text-align: center;
