@@ -212,3 +212,21 @@ body{
     border: 2px solid white;
     border-radius: 10px;
 }
+
+
+.main-content__tres{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.content-tres__title{
+    font-size: 22pt;
+    color: var(--color_01);
+    font-family: 'normal';
+    text-align: center;
+    margin: 60px auto;
+}
+
+.main-content__tres img{
+    padding-left: 6rem;
+}
