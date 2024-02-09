@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="stylesheet" href="./src/styles/media.css">
+    <script src="./src/js/script.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 </head>
@@ -19,11 +20,11 @@
 
             <main class="main">
                 <div class="main-login">
-                    <form action="" class="main-login__form">
+                    <form id="login__Form" class="main-login__form">
                         <p class="p_entrar">Entrar</p><br>
-                        <input type="text" class="input" placeholder="Email ou número de telefone" ><br>
-                        <input type="text" class="input" placeholder="Senha"> <br>
-                        <button class="form-button">Entrar</button> <br>
+                        <input type="email" id="email" name="email" required class="input" placeholder="Email ou número de telefone" ><br>
+                        <input type="password" id="password" name="password" required class="input" placeholder="Senha"> <br>
+                        <input type="submit" class="form-button" value="Entrar"><br>
                         <p  class="form-a"><a href="#">Esqueceu a senha?</a></p> <br>
 
                     <div class="main-footer">
