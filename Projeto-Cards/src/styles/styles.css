@@ -45,6 +45,7 @@
 }
 
 .card__preco{
-    font-size: 18pt;
+    font-size: 22pt;
     font-weight: bold;
+    margin-left: 22px;
 }
