@@ -1,0 +1,9 @@
+.interface{
+    width: 100vw;
+}
+.sections{ 
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    width: 80%;
+    margin: 0 auto;
+}
