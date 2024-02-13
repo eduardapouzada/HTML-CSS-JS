@@ -51,6 +51,18 @@
 }
 
 .card__text{
-    margin: 20px 0px 10px 18px;
+    margin: 20px 0px 20px 18px;
+}
 
+.card ul{
+    margin-left: 15px;
+}
+
+.card li{
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.card li>img{
+    width: 38px;
 }
