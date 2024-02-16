@@ -12,7 +12,9 @@ $(document).ready(function(){
         $('body').css('overflow', 'auto');
     });
 
-    
+    $("[class^='card__button']").click(function(){
+        $(".hidden__buy").show();
+    });
 
 
 
