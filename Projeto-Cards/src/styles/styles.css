@@ -101,22 +101,23 @@
 }
 
 .card__hidden{
-    position: absolute; display: block;
+    position: absolute; 
+    display: block;
+    display: none;
+    position: fixed;
     width: 60%; height: 80vh;
-    top: 50%;
-    left: 50%;
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
     border-radius: 20px;
     background-color: white;
-    display: none;
-    position: fixed;
+    border: 2px solid var(--bg-primaria);
 }
 
 .card__hidden-header{
     display: grid;
     grid-template-columns: 4fr 0.2fr;
-    background-color: var();
+    background-color: var(--bg-primaria);
     width: 100%; height: 8vh;
     border-radius: 10px 10px 0px 0px;
 } 
@@ -138,8 +139,8 @@
     grid-template-columns: repeat(2, 2fr);
 }
 .card__hidden-img{
-    width: 300px;
-    margin: 0px 50px;
+    width: 300px; height: 300px;
+    margin: 20px 50px;
 }
 
 .card__hidden-content p {
