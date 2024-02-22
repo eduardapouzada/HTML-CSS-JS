@@ -198,5 +198,55 @@
 
 .buy__content{
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 2fr;
+}
+
+.buy__content-aside-src{
+    background-color: red;
+    display: block;
+    margin: 60px auto 8px auto;
+    width: 250px;
+}
+
+.buy__content-form {
+    width: 100%; 
+}
+
+.buy__content-form form{ 
+    width: 88%;
+    margin: 50px auto;
+}
+
+.buy__content-form input{
+    padding: 10px 35px;
+    margin: 12px;
+    border-radius: 5px;
+    border: 0.4px solid gray;
+}
+
+#est{
+    padding: 10px 10px;
+}
+
+#cid{
+    padding: 10px 10px;
+}
+
+.buy__content-aside-p{
+    width: 86%;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 800;
+    font-size: 13pt;
+}
+
+#submit{
+    display: block;
+    margin: 40px auto;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    font-size: 12pt;
+    border: none;
+
 }
