@@ -267,7 +267,7 @@ input::placeholder{
 #submit{
     display: block;
    /* padding: 10px 60px;*/
-    width: 17rem; height: 2rem;
+    width: 17rem; height: 3rem;
     margin: 40px auto;
     background-color: blue;
     color: white;
