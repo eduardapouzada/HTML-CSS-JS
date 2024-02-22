@@ -198,7 +198,7 @@
 
 .buy__content{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1.7fr 2fr;
 }
 
 .buy__content-aside-src{
@@ -213,25 +213,43 @@
 }
 
 .buy__content-form form{ 
-    width: 88%;
-    margin: 50px auto;
+    width: 100%; 
+    margin: 20px auto;
 }
 
 .buy__content-form input{
-    padding: 10px 35px;
-    margin: 12px;
+    background-color: #F9F9F9;
+    width: 17.5rem; height: 1rem;
+    padding: 10px;
+    margin: 8px auto;
     border-radius: 5px;
-    border: 0.4px solid gray;
+    border: 0.4px solid #939393;
 }
 
-#est{
-    padding: 10px 10px;
+input::placeholder{
+    text-align: left; color: rgb(177, 177, 177);
 }
+
 
 #cid{
-    padding: 10px 10px;
+    width: 10rem; height: 1rem;
+    padding: 10px;
 }
 
+#cpf{
+    width: 10rem; height: 1rem;
+    padding: 10px;
+}
+
+#cpfCartao{
+    width: 10rem; height: 1rem;
+    padding: 10px;
+}
+
+.input-peq{
+    width: 10rem; height: 1rem;
+    padding: 10px;
+}
 .buy__content-aside-p{
     width: 86%;
     margin: 30px auto;
@@ -242,11 +260,19 @@
 
 #submit{
     display: block;
+    padding: 10px 60px;
     margin: 40px auto;
     background-color: blue;
     color: white;
     font-weight: 600;
     font-size: 12pt;
     border: none;
+    transition: padding 1s ease;
+}
+
+#submit:hover{
+    cursor: pointer;
+    padding: 8px 50px;
+    
 
 }
