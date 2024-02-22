@@ -246,10 +246,16 @@ input::placeholder{
     padding: 10px;
 }
 
-.input-peq{
+#cep{
     width: 10rem; height: 1rem;
     padding: 10px;
 }
+
+#cvvCartao{
+    width: 10rem; height: 1rem;
+    padding: 10px;
+}
+
 .buy__content-aside-p{
     width: 86%;
     margin: 30px auto;
@@ -260,19 +266,14 @@ input::placeholder{
 
 #submit{
     display: block;
-    padding: 10px 60px;
+   /* padding: 10px 60px;*/
+    width: 17rem; height: 2rem;
     margin: 40px auto;
     background-color: blue;
     color: white;
     font-weight: 600;
     font-size: 12pt;
     border: none;
-    transition: padding 1s ease;
-}
-
-#submit:hover{
     cursor: pointer;
-    padding: 8px 50px;
-    
 
 }
