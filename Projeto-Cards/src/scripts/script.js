@@ -27,7 +27,10 @@ $(document).ready(function(){
         $(".buy__content-aside-src").attr("src", prodImg);
 
         var prodNome = $(this).siblings(".card__title").text();
-        $(".buy__content-aside-p").text(prodNome)
+        $(".buy__content-aside-produto").text(prodNome)
+
+        var prodPreco = $(this).siblings(".card__preco").text();
+        $(".buy__content-aside-preco").text(prodPreco)
 
     });
 
