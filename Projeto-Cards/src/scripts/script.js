@@ -39,11 +39,32 @@ $(document).ready(function(){
         mask: '000.000.000-00'
     });
 
+    var cpfCartaoMask = IMask($("#cpfCartao")[0],{
+        mask: '000.000.000-00'
+    });
+
     var telMask = IMask($("#tel")[0],{
         mask: '(00) 00000-0000'
     });
 
-    /* ENVIO DO FORM*/
+    var cepMask = IMask($("#cep")[0],{
+        mask : '00000000'
+    })
+
+    var numCartao = IMask($("#NumCartao")[0],{
+        mask: '0000 0000 0000 0000'
+    })
+
+    var valCartao = IMask($("#valCartao")[0],{
+        mask: '00/0000'
+    })
+
+    var cvvCartao = IMask($("#cvvCartao")[0],{
+        mask: '000'
+    })
+
+    /* ENVIO DO FORM*/    
+    /*
     $("#submit").click(function(){
 
         var nome = $("#nome").val();
@@ -53,11 +74,8 @@ $(document).ready(function(){
         var cid = $("#cid").val();
         var endereco = $("#endereco").val();
 
-        if (!validar){
 
-        }
-
-    });
+    });*/
 
 
 });
