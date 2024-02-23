@@ -34,15 +34,30 @@ $(document).ready(function(){
 
     });
 
-    /*
-    $("[id^='card-preco']").click(function(){
-        var id = $(this).attr('id').split('-')[1];
-        $("#card__hidden" + id).show();
-        $('body').css('overflow', 'hidden');
+    /* IMASK */
+    var cpfMask = IMask($("#cpf")[0],{
+        mask: '000.000.000-00'
     });
-    */
 
+    var telMask = IMask($("#tel")[0],{
+        mask: '(00) 00000-0000'
+    });
 
+    /* ENVIO DO FORM*/
+    $("#submit").click(function(){
+
+        var nome = $("#nome").val();
+        var tel = $("#tel").val();
+        var cpf = $("#cpf").val();
+        var est = $("#est").val();
+        var cid = $("#cid").val();
+        var endereco = $("#endereco").val();
+
+        if (!validar){
+
+        }
+
+    });
 
 
 });
