@@ -9,6 +9,7 @@ body{
 
 .header{
     background-image: url(../assets/bg--hulu.jpeg);
+    background-size: cover;
     max-width: 100%;
     height: auto;
 }
@@ -42,6 +43,7 @@ body{
 .content .content-cards{
     display: grid;
     grid-template-columns: 2fr 2fr;
+    gap: 30px;
     
 }
 
@@ -66,6 +68,11 @@ body{
     margin: 15px 0px;
 }
 
+.content-card .img{
+    width: 200px; 
+    margin: 15px 0px;
+}
+
 .content-card .card-subtitle{
     color: white;
     font-size: 20pt;
@@ -86,9 +93,10 @@ body{
     padding: 10px 0px;
     margin: 18px 0px;
     width: 100%;
+    transition: background-color 1s ease;
 }
 
 .content-card button:hover{
     cursor: pointer;
-    background-color: #15e782d8;
+    background-color: #15e782cd;
 }
