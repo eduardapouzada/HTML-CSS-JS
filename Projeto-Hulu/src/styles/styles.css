@@ -9,24 +9,23 @@ body{
 
 .header{
     background-image: url(../assets/bg--hulu.jpeg);
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
-.header .header{
-    width: 100%; background-color: red;
+.header .menu{
+    width: 100%;  
     height: 80px;
-    background-color: transparent;
 }
 
-.header .header img{
+.header .menu img{
     width: 120px;
     height: 60px;
     float: left;
 }
 
-.header .header a{
+.header .menu a{
     color: rgb(189, 189, 189);
     text-decoration: none;
     padding: 20px 40px 0px 0px;
@@ -99,4 +98,39 @@ body{
 .content-card button:hover{
     cursor: pointer;
     background-color: #15e782cd;
+}
+
+.content .content-aside{
+    background-color: transparent;
+    text-align: center; 
+    color: white;
+    
+}
+
+.content-aside a{
+    display: block;
+}
+
+.content-aside .sing{
+    color: gray;
+}
+
+.content-aside .terms{
+    color: white; 
+    font-size: 14pt;
+    text-transform: uppercase;
+    padding: 50px 0px;
+}
+
+.content-aside p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.content-aside img{
+    margin: 30px 0px;
+    padding: 20px 22px;
+    border-radius: 100%;
+    border: 1px solid white;
 }
