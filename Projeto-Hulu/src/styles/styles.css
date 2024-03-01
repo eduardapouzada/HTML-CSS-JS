@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+.interface{
+    max-width: 100%;
+    height: auto;
+}
+
+.header{
+    background-image: url(../assets/bg--hulu.jpeg);
+    max-width: 100%;
+    height: auto;
+}
+
+.header .header{
+    width: 100%; background-color: red;
+    height: 80px;
+    background-color: transparent;
+}
+
+.header .header img{
+    width: 120px;
+    height: 60px;
+    float: left;
+}
+
+.header .header a{
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+    padding: 20px 40px 0px 0px;
+    font-size: 12pt;
+    font-weight: 700;
+    float: right;
+}
+
+.header .content{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.content .content-cards{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+
+.content .content-card{
+    text-align: center;
+    width: 300px; 
+    background-color: transparent;
+    margin-top: 60px;
+}
+
+.content-card .card-title{ 
+    color: var(--destaque);
+    font-size: 10pt;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 11px;
+}
+
+.content-card img{
+    width: 160px; 
+    margin: 15px 0px;
+}
+
+.content-card .card-subtitle{
+    color: white;
+    font-size: 20pt;
+    font-weight: 600;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.content-card button{
+    background-color: var(--destaque);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 11pt;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    margin: 18px 0px;
+    width: 100%;
+}
+
+.content-card button:hover{
+    cursor: pointer;
+    background-color: #15e782d8;
+}
