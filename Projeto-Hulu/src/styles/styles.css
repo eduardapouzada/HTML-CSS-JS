@@ -8,10 +8,12 @@ body{
 }
 
 .header{
+    position: relative;
     background-image: url(../assets/bg--hulu.jpeg);
     background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-position: center;/*
+    background-repeat: no-repeat; */
+    height: 100%;
 }
 
 .header .menu{
@@ -20,64 +22,72 @@ body{
 }
 
 .header .menu img{
-    width: 120px;
-    height: 60px;
+    width: 121px;
+    height: 65px;
     float: left;
+    padding: 5px 9px;
+
 }
 
 .header .menu a{
-    color: rgb(189, 189, 189);
+    color: #d1caca;
     text-decoration: none;
     padding: 20px 40px 0px 0px;
-    font-size: 12pt;
-    font-weight: 700;
+    font-size: 13pt;
+    font-weight: 900;
     float: right;
+    padding: 28px 50px;
+
 }
 
 .header .content{
-    width: 40%;
-    margin: 0 auto;
+    width: 100%; 
 }
 
 .content .content-cards{
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 30px;
-    
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin: 76px auto 0px auto;
+    width: 670px;
 }
 
 .content .content-card{
     text-align: center;
-    width: 300px; 
-    background-color: transparent;
-    margin-top: 60px;
 }
 
 .content-card .card-title{ 
-    color: var(--destaque);
-    font-size: 10pt;
-    font-weight: 800;
+   color: var(--destaque);
+    font-family: Graphik Web, Graphik, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    line-height: 1;
     text-transform: uppercase;
-    letter-spacing: 1.8px;
-    padding: 11px;
 }
 
-.content-card img{
-    width: 160px; 
-    margin: 15px 0px;
+.content-card .img1{
+    width: 191px; 
+    margin-top: 30px;
 }
 
-.content-card .img{
-    width: 200px; 
-    margin: 15px 0px;
+.content-card .img2{
+    width: 90%; height: 58px;
+    margin-top: 26px;
+
 }
 
 .content-card .card-subtitle{
     color: white;
+    font-family: Graphik Web, Graphik, sans-serif;
+    font-size: 24px;
+    font-weight: 550; 
+    line-height: 1.19;
+    margin-top: 16px;
+}
+
+.content-card .card-subtitle span{
     font-size: 20pt;
-    font-weight: 600;
-    width: 200px;
-    margin: 0 auto;
 }
 
 .content-card button{
@@ -85,12 +95,12 @@ body{
     border: none;
     border-radius: 5px;
     color: black;
-    font-size: 11pt;
-    font-weight: 600;
+    font-size: 10pt;
+    font-weight: 550;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    padding: 10px 0px;
-    margin: 18px 0px;
+    padding: 12px 0px;
+    margin: 22px 0px;
     width: 100%;
     transition: background-color 1s ease;
 }
@@ -111,17 +121,22 @@ body{
     display: block;
 }
 
-.content-aside .sing{
+.content-aside .terms{
     color: gray;
+    font-weight: 600;
 }
 
-.content-aside .terms{
+
+.content-aside .sing{
     color: white; 
     font-size: 14pt;
     text-transform: uppercase;
-    padding: 50px 0px;
+    padding: 36px 0px;
 }
 
+.content-aside .sing:hover{
+    color: var(--destaque);
+}
 .content-aside p{
     font-weight: bold;
     letter-spacing: 1px;
@@ -129,8 +144,9 @@ body{
 }
 
 .content-aside img{
-    margin: 30px 0px;
+    margin: 20px 0px 80px 0px;
     padding: 20px 22px;
     border-radius: 100%;
     border: 1px solid white;
+    cursor: pointer;
 }
