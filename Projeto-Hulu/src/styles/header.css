@@ -11,9 +11,8 @@ body{
     position: relative;
     background-image: url(../assets/bg--hulu.jpeg);
     background-size: cover; 
-    background-position: center;/*
-    background-repeat: no-repeat; */
-    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header .menu{
@@ -107,7 +106,7 @@ body{
 
 .content-card button:hover{
     cursor: pointer;
-    background-color: #15e782cd;
+    background-color: #15e782b8;
 }
 
 .content .content-aside{
