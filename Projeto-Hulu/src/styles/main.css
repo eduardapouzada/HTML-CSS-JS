@@ -71,17 +71,33 @@
     max-width: 792px;
 }
 
-.main figure{  
+.main .figure-img{  
     width: 86%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
  
+.main figure{
+    position: relative;
+    width: 298px; 
 
-.main .figure-img img{
+}
+.main img{
     width: 298px; 
     height: auto;
     border-radius: 15px;
      
 }    
+
+figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+
+}
