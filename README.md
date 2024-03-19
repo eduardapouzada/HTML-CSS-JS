@@ -4,7 +4,7 @@
 
 
 <img src="./Icons/netflix-icon.png">
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-2/index.html">Projeto da página de inicio da Netflix</a>
+<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-2/index.html">Projeto da página de login da Netflix</a>
 <br>
 
 
