@@ -3,7 +3,7 @@
 
 
 
-<img src="./Projeto-TWD/src/assets/Captura de tela 2024-03-18 212457.png">
+<img src="./Icons/netflix-icon.png">
 <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-2/index.html">Projeto da página de inicio da Netflix</a>
 <br>
 
