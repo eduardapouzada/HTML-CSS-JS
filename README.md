@@ -2,8 +2,8 @@
  Projetos de HTML, CSS e JavaScript
 
 
-<!--<img src="./Projeto-TWD/src/assets/Captura de tela 2024-03-18 212457.png">-->
-<h4>Projeto da página de inicio da Netflix</h4>
+<!--<img src="./Projeto-TWD/src/assets/Captura de tela 2024-03-18 212457.png">
+<h4>Projeto da página de inicio da Netflix</h4>-->
 <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-2/index.html"></a>
 <br>
 
