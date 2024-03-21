@@ -93,6 +93,7 @@
     color: gray;
     text-transform: uppercase;
     text-align: center;
+    font-size: 9pt;
 }
 
 .card__a:hover{
