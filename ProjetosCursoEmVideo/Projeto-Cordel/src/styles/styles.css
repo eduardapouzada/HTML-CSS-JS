@@ -35,6 +35,29 @@ a:hover{
     text-decoration: underline;
 }
 
+
+section{
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.207);
+    width: 400px;
+}
+
+
+
 footer{
     background-color: black;
     text-align: center;
