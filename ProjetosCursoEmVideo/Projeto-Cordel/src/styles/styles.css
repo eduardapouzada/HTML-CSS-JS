@@ -28,7 +28,8 @@ header > h1{
     font-family: var(--font02);
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 4em;
+    /*font-size: 4em;*/
+    font-size: 10vh;
 }
 
 header > p{
@@ -51,7 +52,8 @@ section{
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
     font-family: var(--font03);
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
+    font-size: 3.5vh;
 }
 
 section.normal{
