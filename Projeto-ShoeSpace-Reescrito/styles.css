@@ -1,0 +1,19 @@
+.carrinho {
+    position: relative;
+    display: inline-block;
+}
+
+.carrinho img {
+    width: 50px; /* Largura do ícone do carrinho */
+}
+
+.contador {
+    position: absolute;
+    top: -10px; /* Ajusta a posição vertical */
+    right: -10px; /* Ajusta a posição horizontal */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}

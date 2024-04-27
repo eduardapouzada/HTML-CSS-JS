@@ -1,35 +1,33 @@
 main{
-    width: 100vw;
-    height: alto;
+    background-color: red;
+    width: 96vw;
+    height: auto;
     margin: 41px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.slider{
-    overflow-x: scroll;
-    white-space: nowrap;
-    height: 420px;
-}
-
-.slider img{
-    width: 98vw;
-}
-
-.slide{
-    display: inline-block;
+.anuncios{
+    margin-top: 50px;
+    background-color: aqua;
     width: 100%;
-    height: 350px;
-    margin-right: 5px;
-    background-color: var(--bg-ofc); 
+    height: 500px;
 }
 
-.slider:hover{
-    overflow-x: auto;
-    transition: all 1s ease;
+.um{
+    background-color: bisque;
+    height: 200px;
+    background-image: url('../assets/banner-gif.gif');
+    background-size: cover;
 }
 
-.slider::-webkit-scrollbar{
-    display: none;
+.dois{
+    padding-top: 40px;
+    background-color: var(--bg-ofc);
+    background-image: url('../assets/banner-gif2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+}
+
+.dois:hover{
+    cursor: pointer;
 }
