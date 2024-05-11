@@ -1,13 +1,12 @@
 main{ 
-    width: 96vw;
-    height: auto;
+    width: 98vw;
+    height: 3700px;
     margin: 0px auto;
 }
 
 .anuncios{
-    margin-top: 60px;
+    margin-top: 50px;
     width: 100%;
-    height: 500px;
 }
 
 .um{
@@ -15,3 +14,79 @@ main{
     background-image: url('../assets/banner-gif.gif');
     background-size: cover;
 }
+
+.cards-produtos{
+    width: 92%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+
+.card{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 3px rgb(244, 244, 244);
+    width: 250px;
+    height: 450px;
+    padding: 5px;
+}
+
+.card img{
+    display: block;
+    width: 200px; height: 200px;
+    margin: 15px auto;
+    border: 0.5px solid rgb(219, 219, 219);
+    box-shadow: inset 1px 1px 1px 1px rgb(219, 219, 219);
+    cursor: pointer;
+}
+
+.card-title{
+    font-size: 14pt;  
+    width: 96%; margin: 15px auto;
+    font-weight: 600;
+}
+
+.card-stars{
+    color: yellow;
+    margin: 15px 0px;
+    width: 90%; margin: 0px auto;
+}
+
+.card-risk{
+    color: gray;
+    font-size: 10pt;
+    text-decoration: line-through;
+    width: 90%; margin: 10px auto 0px auto;
+}
+
+.card-preco{
+    position: absolute;
+    bottom: 0;
+    font-size: 22pt;
+    font-weight: bold;
+    width: 90%; margin: 0px auto 50px auto;
+    padding: 5px 18px 12px 18px;
+}
+
+.card-button{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    display: block;
+    background-color: var(--bg-sections);
+    border: none;
+    border-radius: 16px;
+    padding: 9px 25px;
+    width: 68%; margin: 10px auto 20px auto;
+    color: white;
+    font-size: 5pt;
+    transition: letter-spacing 4s ease, background-color 2s ease;
+}
+
+.card-button:hover{
+    background-color: var(--details);
+    letter-spacing: .3px;
+    cursor: pointer;
+}
+
