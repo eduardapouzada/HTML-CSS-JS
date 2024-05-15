@@ -32,3 +32,8 @@ li{
     text-decoration: none;
     color: gray;
 }
+
+a:hover, footer>p:hover{
+    text-decoration: underline;
+    color: rgb(187, 187, 187);
+}
