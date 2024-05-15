@@ -1,0 +1,34 @@
+footer{
+    max-width: 100vw; width: 100%;
+    height: 20vh;
+    background-color: var(--bg-sections);
+    color: gray;
+
+}
+
+footer > p{
+    width: 300px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+hr{
+    border-color:gray;
+    width: 88%;
+    margin: 10px auto 25px auto;
+}
+
+ul{
+    width: 88%; 
+    margin: 0px auto;
+}
+
+li{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+ a{
+    text-decoration: none;
+    color: gray;
+}
