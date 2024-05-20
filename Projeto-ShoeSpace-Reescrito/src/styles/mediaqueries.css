@@ -1,0 +1,127 @@
+/*media para dispositivos moveis*/
+@media only screen and (max-width: 768px) {
+    /*!Hearder*/
+
+    header{ 
+        width: 98%; margin: 5px auto;
+    }
+
+    section.title h1{
+        font-size: 16pt;
+    }
+
+    section.title img{
+        margin: 0px 8px;
+        width: 45px; height: 40px;
+    }
+
+    .input {
+        width: 220px;
+        height: 30px; 
+        border: 2px solid var(--details); 
+        border-radius: 15px;
+    }
+
+    .input input{
+        width: 200px;
+        height: 28px;
+        margin-left: 0px;
+    }
+
+    .input input[type="text"]{
+        font-size: 9pt;
+        padding-left: 5px;
+    }
+
+    section.search .icon-carrinho{
+        width: 42px; height: 40px;
+        margin: 0px 30px;
+    }
+
+    section.icons{
+        display: block;
+        margin: 10px 0px 0px -12px;
+    }
+
+    section .icons-contato{
+        width: 12px; height: 12px;
+    }
+
+    section.links{
+        width: 98%; 
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        height: 8vh;
+    }
+
+    section.links a{
+        margin: 0px auto;
+        padding: 5px 15px;
+        font-size: 10pt;
+    }
+ 
+    /*! Main */
+
+    main{
+        width: 98%;
+        height: 6200px; 
+    }
+
+    .cards-produtos{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .card{
+        width: 180px; height: 380px;
+        gap: 0px;
+        
+    }
+
+    .card img{
+        width: 120px; height: 120px;
+    }
+
+    .card-title{
+        font-size: 12pt;
+    }
+
+    .card-risk{
+        font-size: 10pt;
+    }
+
+    .card-preco{
+        font-size: 18pt;
+    }
+
+    .card-button{
+        width: 88%;
+    }
+
+    .anuncios{
+        background-color: red;
+        width: 92%;
+    }
+    .um {
+    background-position: center;
+        
+    }
+
+
+
+    /*! Footer */
+    footer{
+        height: 60vw;
+    }
+
+    hr{
+        margin: 18px auto 30px auto;
+        border: 1.5px solid gray;
+    }
+
+    li{
+        display: block;
+        padding: 5px 0px;
+    }
+}
+
