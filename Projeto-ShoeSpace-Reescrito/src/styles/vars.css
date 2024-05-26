@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-
 :root{
     --font01: Verdana, Geneva, Tahoma, sans-serif;
     --font02: 'Passion One', cursive;
@@ -9,6 +8,10 @@
 
 :root{
     --bg-ofc: #ffffff/*#e7e7e7*/;
-    --bg-sections: #1f2041;
+    --bg-sections: #4B3F72;
     --details: #4B3F72;
+}
+
+*{
+    box-sizing: border-box;
 }
