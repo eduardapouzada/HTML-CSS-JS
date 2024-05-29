@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 //! Biblioteca Swiper, slides 
-    alert("Esta carregando o script")
     const swiper = new Swiper(".swiper", {
         pagination: {
             el: ".swiper-pagination",
