@@ -35,6 +35,8 @@
 <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-TWD/index.html">Projeto de uma landing page sobre a série The Walking Dead.</a>
 <br> <br>
 
+<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-ShoeSpace-Reescrito/index.html">Projeto Shoe Space reescrito.</a>
+<br> <br>
 
 <br>
 <p>Estes projetos são somente para treinar.</p>
