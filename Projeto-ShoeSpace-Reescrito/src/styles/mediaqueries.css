@@ -83,57 +83,9 @@
         }
     }
 
-
-/* Estilos para telas de 768px a 1024px (tablets) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /*! Header */
-    header{
-        margin-top: 15px;
-    }
-    nav{
-        margin-bottom: 20px;
-    } 
-    .input{
-        width: 400px;
-    }
-
-    .input input{
-        width: 350px;
-    }
-
-    section.search .icon-carrinho{
-        margin: 0px 50px  0px 10px;
-    }
-
-    section.links a{
-        font-size: 10pt;
-        padding: 0px 30px;
-    }
-
-    /*! Main */
-
-    main{
-        height: auto;
-    }
-    .cards-produtos{
-        grid-template-columns: repeat(3,1fr);
-    }
-
-    /*! Footer */ 
-    ul{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-
-    }
 }
 
-
-/* Estilos para telas de 1024px a 1440px (laptops) */
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
-
-}
-
-/* Estilos para telas maiores que 1440px (desktops) */
-@media only screen and (min-width: 1440px) {
-
-}
+/*! Para trancar a rolagem horizontal */
+.no-horizontal-scroll {
+    overflow-x: hidden;
+  }    
