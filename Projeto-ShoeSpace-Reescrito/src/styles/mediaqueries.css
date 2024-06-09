@@ -55,6 +55,7 @@
     section.buy{
         grid-area:quatro;
         margin-top : -8px;
+        margin-right: 12px;
         justify-self: end;
     }
     
@@ -70,7 +71,7 @@
     .links {
         animation: scroll 15s linear infinite;
         margin-top: 25px;
-        overflow: hidden; 
+        overflow: hidden;
     }
 
     /* Animação de deslizamento */
@@ -84,12 +85,15 @@
     }
 
     /*! Main */
+    main{
+        margin-top: -50px;
+    }
     .card-banners{
-        height: 200px;
+        height: 190px;
     }
 
     .swiper-slide img{
-        margin-top: 25px;
+        margin-top: 0px;
     }
 
     .cards-produtos{
@@ -115,24 +119,77 @@
     }
 
     .card-button{
-        padding: 9px 2px;
-        font-size: 2pt;
-        width: 78%;
+        padding: 8px 0px;
+        font-size: 8pt;
+        width: 96%;
         margin: 8px auto;
     }
+}
 
-/*
-    .card-title{
-        font-size: 8pt;
+/*! Para Tablets*/ 
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav{
+        height: 70%;
+        grid-template-columns: 0.8fr 2fr 0.5fr;
     }
 
-    .card-stars{
-        font-size: 8pt;
+    .title_logo{
+        background-image: url("../assets/icons/logos/menor.png");
     }
-    
-    .card-risk{
-        font-size: 8pt;
-    }*/
+
+    .search{ 
+        margin-top: 20px;
+        width: 100%;
+        max-width: 37rem;
+    }
+
+    .input{
+        margin-left: 20pxa;
+        width: 98%;
+    }
+
+    .input input{
+        width: 88%;
+    }
+
+    .buy{
+        width: 100%; height: 80px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .buy{
+        width: 30px; height: 30px;
+    }
+    .icons-contato{
+        display: none;
+    }
+
+    .card-banners{
+        height: 300px;
+        margin-top: 64px;
+    }
+
+    /*! Para a animação das marcas*/
+    body.no-scroll {
+        overflow: hidden;
+    }
+
+    .links {
+        animation: scroll 15s linear infinite;
+        margin-top: 25px;
+        overflow: hidden; 
+    }
+
+    /* Animação de deslizamento */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
 }
 
 /*! Para trancar a rolagem horizontal */

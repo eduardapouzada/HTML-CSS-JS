@@ -1,13 +1,14 @@
 main{ 
-    width: 98vw;
+    width: 94vw;
     height: auto;
     margin: 0px auto;
+    margin-top: -80px;
 }
 
 .card-banners {
     display: flex;
     flex-direction: column;
-    width: 98vw;
+    width: 100%;
     height: 450px;
     margin-top: 70px;
     background: white;

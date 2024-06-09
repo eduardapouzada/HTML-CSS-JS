@@ -18,7 +18,7 @@ header{
     margin: auto;
     width: 98vw;
     max-width: 1800px;
-    height: 15vh;
+    height: 160px;
     background-color:var(--bg-ofc);
 }
 
@@ -35,6 +35,7 @@ section.title_logo{
     width: 250px; height: auto;
     margin-top: 15px; 
     background-image: url('../assets/icons/logos/maior.png');
+    background-repeat: no-repeat;
 
 } 
 
@@ -120,13 +121,11 @@ section.links{
     background-color: var(--bg-sections);
     width: 1500px;
     max-width: 1800px;
-    height: 8vh;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--font02);
-
-
     overflow: hidden;
     white-space: nowrap;
 }
