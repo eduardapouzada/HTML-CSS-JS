@@ -1,78 +1,65 @@
-# HTML-CSS-JS
-
-<h2>Projetos de HTML, CSS e JavaScript</h2>
-
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/netflix-icon.png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-2/index.html">Projeto de cópia da página de login da Netflix</a>
-<br> <br>
-
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/cards-icon.png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Cards/index.html">Projeto de uma página com cards de vendas</a>
-<br> <br>
-
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/netflix-icon.png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-1/index.html">Projeto de cópia da página de login da Netflix</a>
-<br> <br>
-
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/hulu-icon.png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Hulu/index.html">Projeto de cópia da página Hulu</a>
-<br> <br>
-
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/spotify-icon (2).png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Spotify-Imersão/index.html">Projeto da Imersão Front-end da Alura. Página do Spotify</a>
-<br> <br>
-
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/spotify-icon.png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-PodCast/index.html"> Projeto do desafio da Landing Page PodCast do site devmentor.com.br</a>
-<br> <br>
-
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/tenis-icon.png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Tenis-Nike/index.html">Projeto do desafio da Landing Page do Tenis da Nike do site devmentor.com.br</a>
-<br> <br>
+## HTML-CSS-JS
+Projetos para treinar Html, Css e Js.
 
 
-<!--<img src="./Projetos-HTML-CSS-JS/HTML-CSS-JS/Icons/twd-icon.png">-->
-<a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-TWD/index.html">Projeto de uma landing page sobre a série The Walking Dead.</a>
-<br> <br>
+<strong>Projeto da cópia da página de login da Netflix 2 <br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-2/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-2/index.html</a> <br>
+- Referência: <a href="https://www.netflix.com/login">https://www.netflix.com/login</a>
+
+<hr>
+
+<strong> Projeto de cópia da página inicial da Hulu <br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Hulu/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Hulu/index.html </a>
+- Referência: <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F">https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F </a>
+ 
+<hr>
+
+<strong>Projeto de uma página que contem cards de vendas, com informações e cadastro de compra.<br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Cards/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Cards/index.html</a>
+- Referência: <a href=""> </a>
+ 
+<hr>
+
+<strong>Projeto de cópia da página de login da Netflix 1 <br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-1/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Netflix-1/index.html </a>
+- Referência: <a href="https://www.netflix.com/login">https://www.netflix.com/login </a>
+ 
+<hr>
+
+<strong> Projeto da Imersão Front-end da Alura. A página inicial do Spotify.<br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Spotify-Imersão/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Spotify-Imersão/index.html</a>
+- Referência: <a href="https://open.spotify.com/intl-pt">https://open.spotify.com/intl-pt</a>
+ 
+<hr>
+
+<strong> Projeto do desafio da Landing Page PodCast do site devmentor.com.br  <br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-PodCast/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-PodCast/index.html</a>
+- Referência: <a href="devmentor.com.br">devmentor.com.br </a>
+ 
+<hr>
+
 
 <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-ShoeSpace-Reescrito/index.html">Projeto Shoe Space reescrito.</a>
 <br> <br>
 
-<br>
-<p>Estes projetos são somente para treinar.</p>
 
-<!--
-<style>
+<strong>Projeto do desafio da Landing Page do Tenis da Nike do site devmentor.com.br<br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Tenis-Nike/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-Tenis-Nike/index.html</a>
+- Referência: <a href="devmentor.com.br">devmentor.com.br</a>
  
-h2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 40px 15px;
-}    
-a{
-    color:black;
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    transition: font-weight 0.5s ease;
-}
+<hr>
 
-a:hover{
-    text-decoration: underline;
-    font-weight: 600;
-    
-}
-
-img{
-    display: block; float: left;
-    width: 40px; height: 40px;
-    margin: 0px 10px;
-}
+<strong> Projeto de uma landing page sobre a série The Walking Dead.  <br></strong>
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-TWD/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-TWD/index.html</a>
+- Referência: <a href=""> </a>
+ 
+<hr>
 
 
-br{
-    display: block; 
-    content: ""; 
-    margin-top: 40px; 
-}
-
-</style>
--->
+<strong>Projeto Shoe Space reescrito.  <br></strong>
+- Descrição: Esse projeto é um site de vendas com vários cards de produtos de uma loja ficticia e possui o sistema basico de compra.
+- Link: <a href="https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-ShoeSpace-Reescrito/index.html">https://eduardapouzada.github.io/HTML-CSS-JS/Projeto-ShoeSpace-Reescrito/index.html </a>
+- Referência: <a href=""> </a>
+ 
+<hr>
+<hr>
