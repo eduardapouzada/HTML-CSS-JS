@@ -8,8 +8,8 @@
 
 :root{
     --bg-ofc: #ffffff/*#e7e7e7*/;
+    --details: #1F2041;
     --bg-sections: #4B3F72;
-    --details: #4B3F72;
 }
 
 *{
